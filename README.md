@@ -1,6 +1,6 @@
 # 8051 Programs
 Welcome to my mini-lab of 8051 C programs.  
-This repo contains the basic, fundamental programs I’ve been writing as I learn 8051 microcontroller programming. Whether it's blinking an LED or playing with interrupts, this is where it all lives.
+This repo contains the basic, fundamental programs I’ve been writing as I learn 8051 microcontroller programming.
 
 ---
 
