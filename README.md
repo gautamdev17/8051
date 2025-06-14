@@ -35,6 +35,6 @@ More coming soon as I keep exploring and breaking stuff
 ---
 
 ## License  
-MIT. Use the code. Modify it. Just don’t flex with it on LinkedIn saying *you* wrote it.
+Licensed under MIT. Feel free to use and modify the code, just give credit where it’s due, we’re all building together.
 
 ---
