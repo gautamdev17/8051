@@ -9,7 +9,7 @@ This project demonstrates how to interface a 16x2 LCD display (LM016L) with the 
   
 ## Files:
 - 'lcd_interface1.c': this code makes char 'A' blink in an 16x2 LCD (initalizing the lcd clears it and it writes char A, this goes on a loop forever)
-- 
+- 'lcd_interface2.c': this code sends char 'A' in a while loop, which makes DDRAM to automatically increase address in LCD
 ## Concepts Covered:
 - LCD command and data sending routines
 - Delay functions in embedded C
