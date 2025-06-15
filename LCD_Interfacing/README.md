@@ -5,7 +5,7 @@ This project demonstrates how to interface a 16x2 LCD display (LM016L) with the 
 ## Files:
 - `lcd_interface.c`: Program to send data to LCD and display a character.
 - `lcd_simulation.pdsprj`: Proteus simulation file showing circuit with AT89C51 and LCD.
-- `Screenshot.png`: Output showing the character on LCD.
+- `lcd.png`: Output showing the character on LCD.
 
 ## Concepts Covered:
 - LCD command and data sending routines
