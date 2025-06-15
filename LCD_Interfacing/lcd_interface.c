@@ -14,7 +14,14 @@ void lcd_data(unsigned char);
 void main()
 {
 	lcd_init();//initializes the lcd
+	//case 1:
 	lcd_data('A');// this line sends char 'A' to the 8 data pins
+	/*case 2:
+ 	while(1)
+  	{
+   	lcd_data('A');// this line 
+   	}
+	*/
 }
 
 void lcd_init(void)
