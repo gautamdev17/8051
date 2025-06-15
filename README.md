@@ -15,7 +15,7 @@ This repo contains the basic, fundamental programs I’ve been writing as I lear
 
 | Folder                  | What it does                                         |
 |-------------------------|------------------------------------------------------|
-| `LED_blink.c`           | Makes an LED blink                                   |
+| `LED.c`                 | Tinkering with LEDs                                  |
 | `Switch_controlled_LED.c`| Turns LED on/off based on a button press           |
 | `LCD_interfacing.c`     | Prints stuff to a 16x2 LCD                           |
 | `Timer_mode1_delay.c`   | Delay using timers                                   |
