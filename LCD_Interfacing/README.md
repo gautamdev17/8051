@@ -2,11 +2,14 @@
 
 This project demonstrates how to interface a 16x2 LCD display (LM016L) with the AT89C51 microcontroller using Keil C and Proteus simulation.
 
+## Format:
+- `progam.c`: //c code
+- `program_simulation.pdsprj`: Proteus simulation file showing circuit with AT89C51 and LCD.
+- `program.png`: Output showing the character on LCD.
+  
 ## Files:
-- `lcd_interface.c`: Program to send data to LCD and display a character.
-- `lcd_simulation.pdsprj`: Proteus simulation file showing circuit with AT89C51 and LCD.
-- `lcd.png`: Output showing the character on LCD.
-
+- 'lcd_interface1.c': this code makes char 'A' blink in an 16x2 LCD (initalizing the lcd clears it and it writes char A, this goes on a loop forever)
+- 
 ## Concepts Covered:
 - LCD command and data sending routines
 - Delay functions in embedded C
