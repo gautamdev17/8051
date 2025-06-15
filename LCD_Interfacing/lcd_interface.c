@@ -19,8 +19,15 @@ void main()
 	/*case 2:
  	while(1)
   	{
-   	lcd_data('A');// this line 
+   		lcd_data('A');// this line 
    	}
+    	case 3:
+     	while(1){
+		lcd_init();
+		lcd_data('A');
+		lcd_data('B');
+		lcd_data('C');
+	}
 	*/
 }
 
