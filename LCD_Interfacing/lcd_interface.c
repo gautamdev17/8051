@@ -1,3 +1,5 @@
+//this code makes char 'A' blink in an 16x2 LCD (initalizing the lcd clears it and it writes char A, this goes on a loop forever)
+
 #include <reg51.h>
 #include <delayheader.h>
 #define LCD_D P2 // 8 data pins connected to port 2(D0 to D7)
@@ -11,8 +13,8 @@ void lcd_data(unsigned char);
 
 void main()
 {
-	lcd_init();
-	lcd_data('A');
+	lcd_init();//initializes the lcd
+	lcd_data('A');// this line sends char 'A' to the 8 data pins
 }
 
 void lcd_init(void)
