@@ -8,7 +8,7 @@ This project demonstrates how to interface a 16x2 LCD display (LM016L) with the 
 - `program.png`: Output showing the character on LCD.
   
 ## Files:
--lcd_interfacing.c
+-lcd_basics.c
   - Case 1: this code makes char 'A' blink in an 16x2 LCD (initalizing the lcd clears it and it writes char A, this goes on a loop forever)
   - Case 2: this code sends char 'A' in a while loop, which makes DDRAM to automatically increase address in LCD
   - Case 3: this code sends characters 'A','B', and 'C' to the LCD
