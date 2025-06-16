@@ -9,7 +9,9 @@ void main()
 	
 	while(cnt<36)
 	{
-		cnt = (TH0*32) + TL0;// since TL0 has 5 bits, and can maximum represent 31. so when count reaches 32, TH0 = 1 and TL0 = 0, then while loop ends at TH0 = 1 and TL0 = 4
+		cnt = (TH0*32) + TL0;/* since TL0 has 5 bits, 
+		and can maximum represent 31. so when count reaches 32, TH0 = 1 and TL0 = 0, 
+  		then while loop ends at TH0 = 1 and TL0 = 4*/
 	}
 	LED = 0;//turning on active low led
 	TR0 = 0;
