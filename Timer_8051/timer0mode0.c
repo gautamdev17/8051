@@ -4,17 +4,17 @@
 
 void main()
 {
-	TMOD = 0x00;
+	TMOD = 0x00;//setting timer 0 mode 0
 	// we want to generate 1ms delay in mode 0. tl0 has 5 bits and th0 has 8 bits.
-  // 8192 is total count of timer 0 mode 0. we write 8192-1000 to tl0 and th0 in binary.
+  	// 8192 is total count of timer 0 mode 0. we write 8192-1000 to tl0 and th0 in binary.
 	TL0 = 0x18;
 	TH0 = 0xE0;
 	
-	TR0 = 1;
+	TR0 = 1;//timer starts to run
 	
-	while(TF0==0);
+	while(TF0==0);//waiting until timer flag occurs
 	
-	TR0 = 0;
+	TR0 = 0;//stop timer
 	
-	TF0 = 0;
+	TF0 = 0;//cleared timer flag
 }
