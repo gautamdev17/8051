@@ -6,7 +6,7 @@ void func(unsigned char bcd)
 {
 	//to convert bcd input of rtc to lcd writable
 	//if rtc gives 0x51, its 51. but lcd_data(i2cslaveread) will print ascii of 0x51=81='Q'
-	lcd_data((bcd >> 4) + '0');//5 will get printed
+	lcd_data((bcd >> 4) + '0');//5 will get printed, we use parantheses bcuz '+' operator has higher precedence than '>>'
 	lcd_data((bcd & 0x0F) + '0');//1 will get printed
 }
 
